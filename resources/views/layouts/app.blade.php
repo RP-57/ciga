@@ -7,9 +7,10 @@
         <meta name="author" content="" />
         <title>Blog Home - Start Bootstrap Template</title>
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="{{ asset('css/styles.css') }}" rel="stylesheet" />
+        <link href="{{ asset('css/styles-custom.css') }}" rel="stylesheet" />
     </head>
     <body>
         <!-- Responsive navbar-->
@@ -23,6 +24,7 @@
                         <li class="nav-item"><a class="nav-link" href="{{ route('about') }}">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{ route('contact') }}">Contact</a></li>
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ route('accesso') }}">Accedi</a></li>
                     </ul>
                 </div>
             </div>

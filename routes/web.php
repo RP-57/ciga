@@ -30,3 +30,4 @@ Route::get('/ciga', [HomeController::class, 'index'])->name('home');
 Route::view('/ciga/contact', 'contact')->name('contact');
 Route::view('/ciga/about', 'about')->name('about');
 Route::get('/ciga/posts/{post}', [PostController::class, 'show'])->name('post.show');
+Route::view('/ciga/accesso', 'accesso')->name('accesso');
